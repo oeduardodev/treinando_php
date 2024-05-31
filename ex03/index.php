@@ -9,9 +9,11 @@
 
 <body>
     <h1>testes de tipos primitivos</h1>
-    <?php 
+    <?php
     $teste = "Eduardo";
-    echo "o valor da variavel é $num";
+    echo "o valor da variavel é $teste";
+
+    // verifica qual o valor da variavel
     var_dump($teste)
     ?>
 </body>

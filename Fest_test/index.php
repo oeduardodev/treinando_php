@@ -1,23 +1,27 @@
    <!-- rodar com extensão code runner -->
+   <?php
+   $nome = "Leandra";
+   $sobrenome = "Leite";
 
-   <?php 
-    $nome = "Leandra";
-    $sobrenome = "Leite";
+   const PAIS = "BRASIL";
+   const GRINGA = "EUA";
 
-    const PAIS = "BRASIL";
-    const GRINGA = "EUA";
+   $name = "Eduardo";
+   $sname = "Leite";
 
-    echo "Te amo, $nome $sobrenome pra sempre" ;
+   echo "$name \"Edu\" $sname";
 
-    date_default_timezone_set("America/Sao_Paulo");
-    echo "hoje no " . PAIS . " a data é : " . date("d/M/Y");
+   // echo "Te amo, $nome $sobrenome pra sempre";
 
-    echo " e a hora é: " . date("G:i:s |");
-    date_default_timezone_set('america/los_angeles');
+   // date_default_timezone_set("America/Sao_Paulo");
+   // echo "hoje no " . PAIS . " a data é : " . date("d/M/Y");
 
-    echo " hoje na " . GRINGA . " a data é : " . date("d/M/Y");
-    echo " e a hora é: " . date("G:i:s");
+   // echo " e a hora é: " . date("G:i:s |");
+   // date_default_timezone_set('america/los_angeles');
 
-    // phpinfo()
-    
-    ?>
+   // echo " hoje na " . GRINGA . " a data é : " . date("d/M/Y");
+   // echo " e a hora é: " . date("G:i:s");
+
+   // phpinfo()
+
+   ?>
