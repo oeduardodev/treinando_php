@@ -1,15 +1,15 @@
    <!-- rodar com extensão code runner -->
    <?php
-   $nome = "Leandra";
-   $sobrenome = "Leite";
+   // $nome = "Leandra";
+   // $sobrenome = "Leite";
 
-   const PAIS = "BRASIL";
-   const GRINGA = "EUA";
+   // const PAIS = "BRASIL";
+   // const GRINGA = "EUA";
 
-   $name = "Eduardo";
-   $sname = "Leite";
+   // $name = "Eduardo";
+   // $sname = "Leite";
 
-   echo "$name \"Edu\" $sname";
+   // echo "$name \"Edu\" $sname";
 
    // echo "Te amo, $nome $sobrenome pra sempre";
 
@@ -23,5 +23,11 @@
    // echo " e a hora é: " . date("G:i:s");
 
    // phpinfo()
+
+   // $num1 = "3";
+   // $num2 = "5";
+
+   // $soma = "3" + "5";
+   // var_dump($soma)
 
    ?>
